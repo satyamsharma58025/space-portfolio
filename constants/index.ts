@@ -259,17 +259,17 @@ export const OTHER_SKILL = [
 
 export const PROJECTS = [
   {
-    title: "Modern Next.js 14 Portfolio",
+    title: "Modern School Website",
     description:
-      'Embark on a journey through my professional evolution with the "Modern Next.js Portfolio" - a dynamic showcase of my skills, experiences, and passion for web development. Crafted with precision and powered by Next.js, this portfolio is more than just a static display; it\'s an immersive experience that reflects the cutting edge of modern web technologies.',
-    image: "/projects/project-1.png",
+      'A fully responsive and dynamic website built to serve a modern educational institution. Features include an event calendar, faculty directories, and live news updates, all managed through a user-friendly admin interface.',
+    image: "/projects/Image.png",
     link: "https://example.com",
   },
   {
-    title: "Interactive Cards Portfolio",
+    title: "Information- Visualizer",
     description:
-      'Step into the extraordinary world of my professional journey through the "Interactive Cards Portfolio" - an innovative and visually captivating platform that redefines the traditional portfolio experience. Ditching the conventional static layout, this portfolio leverages interactive cards to showcase my skills, projects, and personality in an engaging and dynamic manner.',
-    image: "/projects/project-2.png",
+    'A powerful visualization tool that animates the inner workings of complex algorithms. Users can step through sorts like Merge Sort and Quicksort or pathfinders like A* and Dijkstras, gaining a deeper understanding of their logic and efficiency. Tech Stack: React, TypeScript, Node.js',
+    image: "/projects/Algo.png",
     link: "https://example.com",
   },
   {
