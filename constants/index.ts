@@ -263,14 +263,14 @@ export const PROJECTS = [
     description:
       'A fully responsive and dynamic website built to serve a modern educational institution. Features include an event calendar, faculty directories, and live news updates, all managed through a user-friendly admin interface.',
     image: "/projects/Image.png",
-    link: "https://example.com",
+    link: "https://rmsbalichela.org",
   },
   {
     title: "Information- Visualizer",
     description:
     'A powerful visualization tool that animates the inner workings of complex algorithms. Users can step through sorts like Merge Sort and Quicksort or pathfinders like A* and Dijkstras, gaining a deeper understanding of their logic and efficiency. Tech Stack: React, TypeScript, Node.js',
     image: "/projects/Algo.png",
-    link: "https://example.com",
+    link: "https://github.com/satyamsharma58025/algo-visualizer",
   },
   {
     title: "Space Themed Website",
@@ -293,7 +293,7 @@ export const FOOTER_DATA = [
       {
         name: "GitHub",
         icon: RxGithubLogo,
-        link: "https://github.com",
+        link: "https://github.com/satyamsharma58025/algo-visualizer",
       },
       {
         name: "Discord",
@@ -308,7 +308,7 @@ export const FOOTER_DATA = [
       {
         name: "Instagram",
         icon: RxInstagramLogo,
-        link: "https://instagram.com",
+        link: "https://instagram.com/xlr8tooop",
       },
       {
         name: "Twitter",
@@ -318,7 +318,7 @@ export const FOOTER_DATA = [
       {
         name: "Linkedin",
         icon: RxLinkedinLogo,
-        link: "https://linkedin.com",
+        link: "www.linkedin.com/in/satyam-sharma-b908a6209",
       },
     ],
   },
@@ -338,7 +338,7 @@ export const FOOTER_DATA = [
       {
         name: "Contact Me",
         icon: null,
-        link: "mailto:contact@example.com",
+        link: "mailto:satyamsharma58025@gmail.com",
       },
     ],
   },
