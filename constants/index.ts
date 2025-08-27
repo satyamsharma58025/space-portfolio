@@ -348,14 +348,22 @@ export const NAV_LINKS = [
   {
     title: "About me",
     link: "#about-me",
+    isHighlighted: false,
   },
   {
     title: "Skills",
     link: "#skills",
+    isHighlighted: false,
   },
   {
     title: "Projects",
     link: "#projects",
+    isHighlighted: false,
+  },
+  {
+    title: "Sovereign-Tech",
+    link: "/sovereign-tech",
+    isHighlighted: true,
   },
 ] as const;
 

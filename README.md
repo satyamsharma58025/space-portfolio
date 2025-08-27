@@ -4,6 +4,19 @@
 
 ![Modern Space Theme Portfolio using Next.js 14 and Three.js](/.github/images/img_main.png "Modern Space Theme Portfolio using Next.js 14 and Three.js")
 
+## 🇮🇳 Sovereign-Tech Portfolio
+This portfolio hosts India's Centennial Sovereign-Tech Framework (2025–2125).
+It focuses on 3 foundational open-source projects:
+
+- **Agastya** → Formally Verified RISC-V Trusted Execution Core
+- **Sutradhar** → Open EDA & Chiplet Design/Assembly Flow
+- **Bhagirath** → Carbon-Aware Datacenter Control Stack
+
+🌐 Live Demo: [/sovereign-tech](/sovereign-tech)
+
+These projects are not academic exercises — they are the backbone of 
+India's technological independence over the next century.
+
 [![Ask Me Anything!](https://flat.badgen.net/static/Ask%20me/anything?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy "Ask Me Anything!")
 [![GitHub license](https://flat.badgen.net/github/license/sanidhyy/space-portfolio?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/space-portfolio/blob/main/LICENSE "GitHub license")
 [![Maintenance](https://flat.badgen.net/static/Maintained/yes?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/space-portfolio/commits/main "Maintenance")
@@ -114,6 +127,13 @@ space-portfolio/
 ## :gear: Tech Stack
 
 [![React JS](https://skillicons.dev/icons?i=react "React JS")](https://react.dev/ "React JS") [![Next JS](https://skillicons.dev/icons?i=next "Next JS")](https://nextjs.org/ "Next JS") [![Typescript](https://skillicons.dev/icons?i=ts "Typescript")](https://www.typescriptlang.org/ "Typescript") [![Tailwind CSS](https://skillicons.dev/icons?i=tailwind "Tailwind CSS")](https://tailwindcss.com/ "Tailwind CSS") [![Netlify](https://skillicons.dev/icons?i=netlify "Netlify")](https://netlify.app/ "Netlify") [![Three.js](https://skillicons.dev/icons?i=threejs "Three.js")](https://threejs.org/ "Three.js")
+
+## Sovereign-Tech Projects
+- [Agastya: Verified RISC-V Trusted Compute Base](./app/sovereign-tech/agastya/page.tsx)
+- [Sutradhar: Open Chiplet Assembly Flow](./app/sovereign-tech/sutradhar/page.tsx)
+- [Bhagirath: Carbon-Aware Datacenter Control](./app/sovereign-tech/bhagirath/page.tsx)
+
+Explore them live at `/sovereign-tech` in the deployed site.
 
 ## :wrench: Stats
 

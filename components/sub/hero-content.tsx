@@ -49,12 +49,29 @@ export const HeroContent = () => {
           Mobile, and Software development. Check out my projects and skills.
         </motion.p>
 
-        <motion.a
-          variants={slideInFromLeft(1)}
-          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+        <motion.p
+          variants={slideInFromLeft(0.9)}
+          className="text-xl text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 my-2 max-w-[600px]"
         >
-          Learn more
-        </motion.a>
+          Centennial Sovereign-Tech Initiative — Building India&apos;s century-long, open, and verifiable technology commons.
+        </motion.p>
+
+        <div className="flex gap-4">
+          <motion.a
+            variants={slideInFromLeft(1)}
+            href="#about-me"
+            className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px] px-4"
+          >
+            Learn more
+          </motion.a>
+          <motion.a
+            variants={slideInFromLeft(1.1)}
+            href="/sovereign-tech"
+            className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px] px-4"
+          >
+            Explore Sovereign Tech
+          </motion.a>
+        </div>
       </div>
 
       <motion.div
