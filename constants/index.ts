@@ -262,7 +262,7 @@ export const PROJECTS = [
     title: "Modern School Website",
     description:
       'A fully responsive and dynamic website built to serve a modern educational institution. Features include an event calendar, faculty directories, and live news updates, all managed through a user-friendly admin interface.',
-    image: "/projects/Image.png",
+    image: "/projects/pc1.png",
     link: "https://rmsbalichela.org",
   },
   {
