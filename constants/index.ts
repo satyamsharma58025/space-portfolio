@@ -269,14 +269,14 @@ export const PROJECTS = [
     title: "Information- Visualizer",
     description:
     'A powerful visualization tool that animates the inner workings of complex algorithms. Users can step through sorts like Merge Sort and Quicksort or pathfinders like A* and Dijkstras, gaining a deeper understanding of their logic and efficiency. Tech Stack: React, TypeScript, Node.js',
-    image: "/projects/Algo.png",
-    link: "https://github.com/satyamsharma58025/algo-visualizer",
+    image: "/projects/pc2.png",
+    link: "https://csvisualizer.netlify.app/",
   },
   {
     title: "Space Themed Website",
     description:
       'Embark on an interstellar journey with my "Space Themed Website", a mesmerizing space-themed website that invites you to explore the cosmic wonders beyond our world. Immerse yourself in an awe-inspiring digital experience that blends cutting-edge design with the mysteries of the universe.',
-    image: "/projects/project-3.png",
+    image: "/projects/pc3.png",
     link: "https://example.com",
   },
 ] as const;
