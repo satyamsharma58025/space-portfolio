@@ -180,11 +180,11 @@ You can also give this repository a star to show more people and they can use th
 
 ## :star2: Star History
 
-<a href="https://star-history.com/#sanidhyy/space-portfolio&Timeline">
+<a href="https://www.star-history.com/assets/blog/vertical-llm/qwen3-coder-star.webp">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=sanidhyy/space-portfolio&type=Timeline&theme=dark" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=sanidhyy/space-portfolio&type=Timeline" />
-  <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=sanidhyy/space-portfolio&type=Timeline" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://www.star-history.com/assets/blog/vertical-llm/qwen3-coder-star.webp" />
+  <source media="(prefers-color-scheme: light)" srcset="https://www.star-history.com/assets/blog/vertical-llm/qwen3-coder-star.webp" />
+  <img alt="Star History Chart" src="https://www.star-history.com/assets/blog/vertical-llm/qwen3-coder-star.webp" />
 </picture>
 </a>
 
