@@ -78,7 +78,7 @@ const Sutradhar = () => {
           <h3 className="text-xl font-semibold text-white mb-4">Why it matters</h3>
           <div className="text-gray-300 space-y-4">
             <p>
-              Breaking the soft embargo of EDA tooling is crucial for India's semiconductor
+              Breaking the soft embargo of EDA tooling is crucial for India&apos;s semiconductor
               ambitions. By making the assembly recipe a national asset, we create a path
               to sovereign system integration capabilities.
             </p>
@@ -128,7 +128,7 @@ const Sutradhar = () => {
           <h3 className="text-xl font-semibold text-white mb-4">Contribute</h3>
           <div className="space-y-4">
             <p className="text-gray-300 mb-6">
-              Join us in building India's chiplet integration capabilities:
+              Join us in building India&apos;s chiplet integration capabilities:
             </p>
             <div className="flex flex-wrap gap-4">
               <Link

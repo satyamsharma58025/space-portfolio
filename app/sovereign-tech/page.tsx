@@ -20,7 +20,7 @@ const SovereignTech = () => {
           animate="visible"
           className="text-4xl md:text-5xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500"
         >
-          India's Centennial Sovereign-Tech Framework
+          India&apos;s Centennial Sovereign-Tech Framework
           <span className="block text-xl md:text-2xl mt-2 text-gray-300">(2025–2125)</span>
         </motion.h1>
         
@@ -59,7 +59,7 @@ const SovereignTech = () => {
           className="text-gray-300 space-y-4"
         >
           <p>
-            India's durable technological sovereignty depends on controlling correctness and composition of compute.
+            India&apos;s durable technological sovereignty depends on controlling correctness and composition of compute.
             The Sovereign-Tech Initiative focuses on publishing proof-carrying artifacts, mastering chiplet composition
             using mature nodes and domestic packaging, and operating carbon-aware datacenter systems tied to national
             energy realities.

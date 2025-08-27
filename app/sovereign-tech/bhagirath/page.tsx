@@ -44,7 +44,7 @@ const Bhagirath = () => {
           <h3 className="text-xl font-semibold text-white mb-4">Thesis</h3>
           <p className="text-gray-300">
             True technological sovereignty means compute infrastructure that is aligned with
-            India's sustainable energy and water resources. We must develop systems that
+            India&apos;s sustainable energy and water resources. We must develop systems that
             turn our climate constraints into competitive advantages.
           </p>
         </motion.section>
@@ -79,7 +79,7 @@ const Bhagirath = () => {
           <h3 className="text-xl font-semibold text-white mb-4">Why it matters</h3>
           <div className="text-gray-300 space-y-4">
             <p>
-              By developing control systems that deeply integrate with India's renewable energy
+              By developing control systems that deeply integrate with India&apos;s renewable energy
               infrastructure, we create a sustainable foundation for our digital future.
             </p>
             <p>
@@ -128,7 +128,7 @@ const Bhagirath = () => {
           <h3 className="text-xl font-semibold text-white mb-4">Contribute</h3>
           <div className="space-y-4">
             <p className="text-gray-300 mb-6">
-              Help build India's sustainable computing infrastructure:
+              Help build India&apos;s sustainable computing infrastructure:
             </p>
             <div className="flex flex-wrap gap-4">
               <Link

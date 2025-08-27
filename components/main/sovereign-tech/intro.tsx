@@ -73,7 +73,7 @@ export const SovereignTechIntro = () => {
   return (
     <section className="relative w-full py-20">
       {/* Subtle Background Pattern */}
-      <div className="absolute inset-0 bg-[url('/grid.svg')] opacity-5" />
+      <div className="absolute inset-0 bg-[url('/grid.svgg'aapos;apos;)] opacity-5" />
 
       {/* Content */}
       <div className="relative container mx-auto px-4">
@@ -90,7 +90,7 @@ export const SovereignTechIntro = () => {
             </span>
           </h2>
           <p className="text-gray-300 text-lg mb-8 leading-relaxed">
-            A century-long roadmap for India's technological sovereignty, built on open-source foundations and verifiable computing infrastructure.
+            A century-long roadmap for India&apos;s technological sovereignty, built on open-source foundations and verifiable computing infrastructure.
           </p>
           <Link
             href="/sovereign-tech"
@@ -105,13 +105,13 @@ export const SovereignTechIntro = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
           <ProjectCard
             title="Project Agastya"
-            description="Open-source EDA & formal verification stack for RISC-V, securing India's digital sovereignty through provable trust."
+            description="Open-source EDA & formal verification stack for RISC-V, securing Indiaa'aapos;apos;s digital sovereignty through provable trust."
             icon="/sovereign-tech/agastya.svg"
             link="/sovereign-tech/agastya"
           />
           <ProjectCard
             title="Project Sutradhar"
-            description="Sustainable compute architecture and energy-efficient datacenter innovations aligned with India's climate commitments."
+            description="Sustainable compute architecture and energy-efficient datacenter innovations aligned with Indiaa'aapos;apos;s climate commitments."
             icon="/sovereign-tech/sutradhar.svg"
             link="/sovereign-tech/sutradhar"
           />

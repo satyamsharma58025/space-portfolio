@@ -13,7 +13,7 @@ import { slideInFromLeft, slideInFromRight } from "@/lib/motion";
 const citations = [
   {
     id: "tech2025",
-    title: "India's Technology Sovereignty: A 100-Year Vision",
+    title: "India&apos;s Technology Sovereignty: A 100-Year Vision",
     authors: ["Ministry of Electronics and IT", "NITI Aayog"],
     conference: "Digital India Initiative",
     year: 2025,
@@ -29,7 +29,12 @@ const citations = [
   }
 ];
 
-const metrics = [
+const metrics: {
+  label: string;
+  value: string;
+  trend: "up" | "down" | "neutral";
+  description: string;
+}[] = [
   {
     label: "Tech Independence Index",
     value: "78.5%",
@@ -50,7 +55,12 @@ const metrics = [
   }
 ];
 
-const timeline = [
+const timeline: {
+  date: string;
+  title: string;
+  description: string;
+  status: "completed" | "upcoming" | "in-progress";
+}[] = [
   {
     date: "2025",
     title: "Framework Launch",

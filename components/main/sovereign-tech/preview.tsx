@@ -79,7 +79,7 @@ export const SovereignTechPreview = () => {
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-            India's Centennial Sovereign-Tech Framework
+            India&apos;s Centennial Sovereign-Tech Framework
             <span className="block text-xl md:text-2xl mt-2 text-gray-300">(2025–2125)</span>
           </h2>
           <p className="text-gray-300 max-w-2xl mx-auto mb-8">
@@ -98,7 +98,7 @@ export const SovereignTechPreview = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
           <ProjectPreview
             title="Agastya"
-            description="Formally verified RISC-V trusted execution core securing India's digital public infrastructure."
+            description="Formally verified RISC-V trusted execution core securing Indiaa'aapos;apos;s digital public infrastructure."
             icon="/sovereign-tech/agastya.svg"
             link="/sovereign-tech/agastya"
           />
