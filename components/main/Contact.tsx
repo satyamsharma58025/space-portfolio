@@ -59,7 +59,7 @@ export const Contact = () => {
                 Other Ways to Connect
               </h3>
               <div className="space-y-3 text-gray-400">
-                <p>📧 Email: contact@example.com</p>
+                <p>📧 Email: satyamsharma58025@gmail.com</p>
                 <p>🌐 GitHub: github.com/satyamsharma58025</p>
                 <p>💼 LinkedIn: linkedin.com/in/satyamsharma</p>
               </div>

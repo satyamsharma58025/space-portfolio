@@ -1,11 +1,12 @@
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
-import { MDXRemote } from "next-mdx-remote/rsc";
 import { BlogPostView } from "@/components/main/BlogPost";
 import { notFound } from "next/navigation";
+import type { BlogPost } from "@/types/blog";
+import Markdown from 'react-markdown';
 
-async function getPost(slug: string) {
+async function getPost(slug: string): Promise<BlogPost | null> {
   const fullPath = path.join(process.cwd(), "content/blog", `${slug}.mdx`);
   
   try {
@@ -15,11 +16,11 @@ async function getPost(slug: string) {
     return {
       metadata: {
         slug,
-        title: data.title,
-        date: data.date,
-        author: data.author,
-        tags: data.tags,
-        summary: data.summary,
+        title: data.title as string,
+        date: data.date as string,
+        author: data.author as string,
+        tags: data.tags as string[],
+        summary: data.summary as string,
       },
       content,
     };
@@ -41,7 +42,7 @@ export default async function BlogPostPage({
 
   return (
     <BlogPostView post={post.metadata}>
-      <MDXRemote source={post.content} />
+      <Markdown>{post.content}</Markdown>
     </BlogPostView>
   );
 }

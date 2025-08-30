@@ -4,16 +4,9 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { CalendarDays, Tag, User } from "lucide-react";
 
-export type BlogPost = {
-  slug: string;
-  title: string;
-  date: string;
-  author: string;
-  tags: string[];
-  summary: string;
-};
+import type { BlogPostMetadata } from "@/types/blog";
 
-const BlogCard = ({ post }: { post: BlogPost }) => (
+const BlogCard = ({ post }: { post: BlogPostMetadata }) => (
   <motion.article
     initial={{ opacity: 0, y: 20 }}
     animate={{ opacity: 1, y: 0 }}
@@ -37,7 +30,7 @@ const BlogCard = ({ post }: { post: BlogPost }) => (
         </div>
         <div className="flex items-center gap-2 flex-wrap">
           <Tag className="w-4 h-4" />
-          {post.tags.map(tag => (
+          {post.tags.map((tag: string) => (
             <span
               key={tag}
               className="px-2 py-1 rounded-full bg-[#2A0E61]/30 text-purple-300 text-xs"
@@ -51,7 +44,7 @@ const BlogCard = ({ post }: { post: BlogPost }) => (
   </motion.article>
 );
 
-export const BlogList = ({ posts }: { posts: BlogPost[] }) => {
+export const BlogList = ({ posts }: { posts: BlogPostMetadata[] }) => {
   return (
     <section className="py-20">
       <div className="max-w-4xl mx-auto px-4">

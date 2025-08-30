@@ -264,13 +264,19 @@ export const PROJECTS = [
       'A fully responsive and dynamic website built to serve a modern educational institution. Features include an event calendar, faculty directories, and live news updates, all managed through a user-friendly admin interface.',
     image: "/projects/pc1.png",
     link: "https://rmsbalichela.org",
+    category: "Web",
+    techStack: ["Next.js", "TypeScript", "TailwindCSS", "MongoDB"],
+    github: "https://github.com/satyamsharma58025/school-website",
   },
   {
     title: "Information- Visualizer",
     description:
-    'A powerful visualization tool that animates the inner workings of complex algorithms. Users can step through sorts like Merge Sort and Quicksort or pathfinders like A* and Dijkstras, gaining a deeper understanding of their logic and efficiency. Tech Stack: React, TypeScript, Node.js',
+    'A powerful visualization tool that animates the inner workings of complex algorithms. Users can step through sorts like Merge Sort and Quicksort or pathfinders like A* and Dijkstras, gaining a deeper understanding of their logic and efficiency.',
     image: "/projects/pc2.png",
     link: "https://csvisualizer.netlify.app/",
+    category: "AI",
+    techStack: ["React", "TypeScript", "Node.js", "D3.js"],
+    github: "https://github.com/satyamsharma58025/algo-visualizer",
   },
   {
     title: "Space Themed Website",
@@ -278,8 +284,11 @@ export const PROJECTS = [
       'Embark on an interstellar journey with my "Space Themed Website", a mesmerizing space-themed website that invites you to explore the cosmic wonders beyond our world. Immerse yourself in an awe-inspiring digital experience that blends cutting-edge design with the mysteries of the universe.',
     image: "/projects/pc3.png",
     link: "https://example.com",
+    category: "Web",
+    techStack: ["React", "Three.js", "Framer Motion", "TailwindCSS"],
+    github: "https://github.com/satyamsharma58025/space-portfolio",
   },
-] as const;
+];
 
 export const FOOTER_DATA = [
   {

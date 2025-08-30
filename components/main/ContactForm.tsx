@@ -3,6 +3,8 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { AlertCircle, CheckCircle, Loader2, Mail, Send } from "lucide-react";
+import emailjs from '@emailjs/browser';
+import { EMAIL_JS_CONFIG } from '@/config/email';
 
 type FormState = {
   name: string;
@@ -56,12 +58,23 @@ export const ContactForm = () => {
 
     setStatus("submitting");
 
-    // Simulate API call
     try {
-      await new Promise(resolve => setTimeout(resolve, 1500));
+      await emailjs.send(
+        EMAIL_JS_CONFIG.serviceId,
+        EMAIL_JS_CONFIG.templateId,
+        {
+          from_name: form.name,
+          from_email: form.email,
+          message: form.message,
+          to_email: EMAIL_JS_CONFIG.defaultTo,
+        },
+        EMAIL_JS_CONFIG.publicKey
+      );
+      
       setStatus("success");
       setForm(initialFormState);
     } catch (error) {
+      console.error('Failed to send email:', error);
       setStatus("error");
     }
   };

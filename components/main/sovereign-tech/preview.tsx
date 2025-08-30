@@ -98,7 +98,7 @@ export const SovereignTechPreview = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
           <ProjectPreview
             title="Agastya"
-            description="Formally verified RISC-V trusted execution core securing Indiaa'aapos;apos;s digital public infrastructure."
+            description="Formally verified RISC-V trusted execution core securing India's digital public infrastructure."
             icon="/sovereign-tech/agastya.svg"
             link="/sovereign-tech/agastya"
           />

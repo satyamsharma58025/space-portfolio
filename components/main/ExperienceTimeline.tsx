@@ -3,6 +3,8 @@
 import { useEffect, useRef } from "react";
 import { motion, useAnimation, useInView } from "framer-motion";
 import { Experience, experiences } from "@/data/experience";
+import { SPACE_THEME } from "@/config/theme";
+import { SpaceStation } from "@/components/sub/space-station";
 
 const ExperienceCard = ({ experience }: { experience: Experience }) => {
   const ref = useRef(null);
@@ -84,7 +86,7 @@ export const ExperienceTimeline = () => {
       };
 
   return (
-    <section className="py-20 relative">
+    <section className="py-20 relative overflow-hidden">
       <div className="max-w-5xl mx-auto px-4">
         <motion.h2
           initial="hidden"
@@ -92,17 +94,88 @@ export const ExperienceTimeline = () => {
           variants={variants}
           className="text-4xl font-bold text-center mb-16 text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500"
         >
-          Experience & Vision
+          Experience & Journey
         </motion.h2>
 
-        <div className="space-y-8">
-          {experiences.map((experience, index) => (
-            <ExperienceCard key={`${experience.title}-${index}`} experience={experience} />
-          ))}
-        </div>
+        <div className="space-y-12 relative">
+          {/* Space Stations */}
+          {experiences.map((_, index) => {
+            const isLeft = index % 2 === 0;
+            return (
+              <SpaceStation
+                key={index}
+                size={24}
+                orbitRadius={60}
+                orbitDuration={20}
+                delay={index * 2}
+                isLeft={isLeft}
+              />
+            );
+          })}
 
-        {/* Vertical Timeline Line */}
-        <div className="absolute left-1/2 top-[8rem] bottom-20 w-px bg-gradient-to-b from-purple-500/50 to-transparent" />
+          {/* Experience Cards */}
+          {experiences.map((experience, index) => (
+            <motion.div
+              key={`${experience.title}-${index}`}
+              className={`relative ${index % 2 === 0 ? 'ml-12' : 'mr-12'}`}
+            >
+              <ExperienceCard experience={experience} />
+              
+              {/* Connecting Line */}
+              <div 
+                className={`absolute top-1/2 w-12 h-px bg-gradient-to-r ${
+                  index % 2 === 0 
+                    ? 'right-full from-transparent to-purple-500/50'
+                    : 'left-full from-purple-500/50 to-transparent'
+                }`} 
+              />
+            </motion.div>
+          ))}
+
+          {/* Central Timeline */}
+          <div className="absolute left-1/2 top-0 bottom-0 w-px">
+            <div className="h-full bg-gradient-to-b from-purple-500/50 via-cyan-500/30 to-transparent animate-pulse" />
+            
+            {/* Animated Rocket */}
+            <motion.div
+              className="absolute left-1/2 transform -translate-x-1/2"
+              initial={{ y: "100%" }}
+              animate={{ y: "0%" }}
+              transition={{
+                duration: 20,
+                repeat: Infinity,
+                ease: "linear",
+              }}
+            >
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                style={{
+                  filter: `drop-shadow(${SPACE_THEME.effects.glowIntense} ${SPACE_THEME.colors.cosmicBlue})`,
+                }}
+              >
+                <path
+                  d="M12 2L8 6H16L12 2Z"
+                  fill={SPACE_THEME.colors.cosmicBlue}
+                />
+                <rect
+                  x="10"
+                  y="6"
+                  width="4"
+                  height="12"
+                  fill={SPACE_THEME.colors.cosmicBlue}
+                />
+                <path
+                  d="M8 18L12 22L16 18H8Z"
+                  fill={SPACE_THEME.colors.nebulaPurple}
+                />
+              </svg>
+            </motion.div>
+          </div>
+        </div>
       </div>
     </section>
   );

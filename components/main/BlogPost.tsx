@@ -2,8 +2,8 @@
 
 import { motion } from "framer-motion";
 import { CalendarDays, Tag, User } from "lucide-react";
-import type { BlogPost } from "./BlogList";
-import { MDXProvider } from "@mdx-js/react";
+import type { BlogPostMetadata } from "@/types/blog";
+// import { MDXProvider } from "@mdx-js/react";
 
 const components = {
   h1: (props: any) => (
@@ -59,7 +59,7 @@ export const BlogPostView = ({
   post, 
   children 
 }: { 
-  post: BlogPost;
+  post: BlogPostMetadata;
   children: React.ReactNode;
 }) => {
   return (
@@ -92,7 +92,7 @@ export const BlogPostView = ({
 
           <div className="flex items-center gap-2 flex-wrap">
             <Tag className="w-4 h-4 text-gray-500" />
-            {post.tags.map(tag => (
+            {post.tags.map((tag: string) => (
               <span
                 key={tag}
                 className="px-3 py-1 rounded-full bg-[#2A0E61]/30 text-purple-300 text-sm"
@@ -103,11 +103,9 @@ export const BlogPostView = ({
           </div>
         </header>
 
-        <MDXProvider components={components}>
-          <div className="prose prose-invert prose-purple max-w-none">
-            {children}
-          </div>
-        </MDXProvider>
+        <div className="prose prose-invert prose-purple max-w-none">
+          {children}
+        </div>
       </div>
     </motion.article>
   );

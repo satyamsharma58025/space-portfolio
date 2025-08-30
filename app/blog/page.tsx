@@ -2,8 +2,9 @@ import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 import { BlogList } from "@/components/main/BlogList";
+import type { BlogPostMetadata } from "@/types/blog";
 
-function getBlogPosts() {
+function getBlogPosts(): BlogPostMetadata[] {
   const postsDirectory = path.join(process.cwd(), "content/blog");
   const fileNames = fs.readdirSync(postsDirectory);
 
