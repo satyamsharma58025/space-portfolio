@@ -1,11 +1,6 @@
-import { Metadata } from 'next';
-import { motion } from 'framer-motion';
-import { generateMetadata } from '@/utils/seo';
+'use client';
 
-export const metadata: Metadata = generateMetadata({
-  title: 'Vision & Roadmap',
-  description: 'Multi-decade roadmap (2025–2125) for technological sovereignty and sustainable development.'
-});
+import { motion } from 'framer-motion';
 
 const timelineItems = [
   {

@@ -1,11 +1,6 @@
-import { Metadata } from 'next';
-import { motion } from 'framer-motion';
-import { generateMetadata } from '@/utils/seo';
+'use client';
 
-export const metadata: Metadata = generateMetadata({
-  title: 'Dashboard',
-  description: 'Personal metrics dashboard showing commits, posts, and activity.'
-});
+import { motion } from 'framer-motion';
 
 interface Metric {
   label: string;
