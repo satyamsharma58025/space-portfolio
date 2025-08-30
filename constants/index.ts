@@ -365,6 +365,11 @@ export const NAV_LINKS = [
     link: "/sovereign-tech",
     isHighlighted: true,
   },
+  {
+    title: "Blog",
+    link: "/blog",
+    isHighlighted: false,
+  },
 ] as const;
 
 export const LINKS = {
