@@ -1,0 +1,67 @@
+{
+  "eras": [
+    {
+      "year": 1947,
+      "name": "The Birth of the Transistor",
+      "description": "The invention of the transistor at Bell Labs marked the beginning of the semiconductor age. This revolutionary device would eventually replace vacuum tubes and enable the miniaturization of electronic devices.",
+      "innovations": [
+        "Point-contact transistor invention",
+        "Junction transistor development",
+        "Solid-state electronics foundation"
+      ],
+      "companies": [
+        {
+          "name": "Bell Labs",
+          "contribution": "Invented the first transistor"
+        },
+        {
+          "name": "Shockley Semiconductor",
+          "contribution": "Commercialized transistor technology"
+        }
+      ],
+      "impact": "The transistor invention laid the foundation for all modern electronics and commenced the rapid advancement of semiconductor technology."
+    },
+    {
+      "year": 1958,
+      "name": "Integrated Circuit Era",
+      "description": "Jack Kilby at Texas Instruments demonstrated the first integrated circuit, while Robert Noyce at Fairchild developed a more practical silicon-based version.",
+      "innovations": [
+        "First integrated circuit",
+        "Silicon-based IC manufacturing",
+        "Planar process development"
+      ],
+      "companies": [
+        {
+          "name": "Texas Instruments",
+          "contribution": "Created the first integrated circuit"
+        },
+        {
+          "name": "Fairchild Semiconductor",
+          "contribution": "Developed the planar process and silicon-based ICs"
+        }
+      ],
+      "impact": "Integrated circuits enabled the creation of more complex electronic devices while reducing size and cost."
+    },
+    {
+      "year": 1971,
+      "name": "Microprocessor Revolution",
+      "description": "Intel introduces the 4004, the first commercial microprocessor, starting the microcomputer revolution.",
+      "innovations": [
+        "First commercial microprocessor",
+        "Silicon gate technology",
+        "4-bit central processing unit"
+      ],
+      "companies": [
+        {
+          "name": "Intel",
+          "contribution": "Created the first commercial microprocessor"
+        }
+      ],
+      "impact": "The microprocessor made personal computing possible and established the foundation for the digital revolution."
+    }
+  ],
+  "metadata": {
+    "lastUpdated": "2024-02-24",
+    "version": "1.0.0"
+  }
+}

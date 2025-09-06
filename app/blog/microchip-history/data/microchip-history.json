@@ -1,0 +1,97 @@
+{
+  "eras": [
+    {
+      "year": 1947,
+      "name": "The Birth of the Transistor",
+      "description": "The invention of the transistor at Bell Labs marked the beginning of the semiconductor age. This revolutionary device would eventually replace vacuum tubes and enable the miniaturization of electronic devices.",
+      "innovations": [
+        "Point-contact transistor invention",
+        "Junction transistor development",
+        "Solid-state electronics foundation"
+      ],
+      "companies": [
+        {
+          "name": "Bell Labs",
+          "contribution": "Invented the first transistor and pioneered semiconductor research",
+          "yearsActive": "1925-present",
+          "location": "Murray Hill, New Jersey, USA"
+        },
+        {
+          "name": "Shockley Semiconductor",
+          "contribution": "Commercialized transistor technology and sparked Silicon Valley",
+          "yearsActive": "1956-1968",
+          "location": "Mountain View, California, USA"
+        }
+      ],
+      "impact": "The transistor invention revolutionized electronics, laying the foundation for the digital age and modern computing. It enabled smaller, more reliable, and energy-efficient devices that transformed every aspect of technology.",
+      "technologies": [
+        "Point-contact transistors",
+        "Junction transistors",
+        "Semiconductor materials"
+      ]
+    },
+    {
+      "year": 1971,
+      "name": "The Microprocessor Revolution",
+      "description": "Intel introduces the 4004, the world's first commercial microprocessor. This breakthrough marked the beginning of the modern computing era.",
+      "innovations": [
+        "First commercial microprocessor",
+        "Silicon gate technology",
+        "Integrated CPU design"
+      ],
+      "companies": [
+        {
+          "name": "Intel",
+          "contribution": "Developed and commercialized the first microprocessor",
+          "yearsActive": "1968-present",
+          "location": "Santa Clara, California, USA",
+          "website": "https://intel.com"
+        }
+      ],
+      "impact": "The microprocessor democratized computing, leading to the personal computer revolution and establishing the foundation for today's digital world.",
+      "technologies": [
+        "4-bit CPU architecture",
+        "Silicon gate MOS technology",
+        "10-micron process"
+      ]
+    },
+    {
+      "year": 2024,
+      "name": "The AI and Quantum Era",
+      "description": "The convergence of AI acceleration, quantum computing, and advanced semiconductor manufacturing pushes the boundaries of what's possible in computing.",
+      "innovations": [
+        "Neural processing units",
+        "Quantum bits and gates",
+        "3nm process technology",
+        "Chiplet architecture"
+      ],
+      "companies": [
+        {
+          "name": "NVIDIA",
+          "contribution": "Pioneered AI accelerators and GPU computing",
+          "yearsActive": "1993-present",
+          "location": "Santa Clara, California, USA",
+          "website": "https://nvidia.com"
+        },
+        {
+          "name": "TSMC",
+          "contribution": "Advanced semiconductor manufacturing at 3nm",
+          "yearsActive": "1987-present",
+          "location": "Hsinchu, Taiwan",
+          "website": "https://tsmc.com"
+        }
+      ],
+      "impact": "AI chips and quantum processors are enabling breakthroughs in artificial intelligence, scientific research, and complex problem-solving that were previously impossible.",
+      "technologies": [
+        "Tensor processing units",
+        "Quantum circuits",
+        "3D chip stacking",
+        "Silicon photonics"
+      ]
+    }
+  ],
+  "metadata": {
+    "lastUpdated": "2024-09-06",
+    "version": "1.0.0"
+  }
+}
