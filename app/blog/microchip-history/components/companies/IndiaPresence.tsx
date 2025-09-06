@@ -88,13 +88,13 @@ export default function IndiaPresence({ active }: IndiaPresenceProps) {
           "bg-clip-text text-transparent bg-gradient-to-r",
           "from-orange-500 via-purple-500 to-green-500"
         )}>
-          India's Semiconductor Journey
+          India&apos;s Semiconductor Journey
         </h2>
         <p className={cn(
           "text-lg",
           theme === 'dark' ? 'text-gray-300' : 'text-gray-700'
         )}>
-          Exploring recent investments and facilities in India's growing semiconductor ecosystem
+          Exploring recent investments and facilities in India&apos;s growing semiconductor ecosystem
         </p>
       </header>
 

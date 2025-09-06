@@ -35,13 +35,13 @@ export default function IndiaProgress({ active }: IndiaProgressProps) {
             "bg-clip-text text-transparent bg-gradient-to-r",
             "from-orange-500 via-purple-500 to-blue-500"
           )}>
-            India's Semiconductor Journey
+            India&apos;s Semiconductor Journey
           </h2>
           <p className={cn(
             "text-lg max-w-3xl mx-auto",
             theme === 'dark' ? 'text-gray-300' : 'text-gray-700'
           )}>
-            Exploring India's emergence as a global semiconductor hub through
+            Exploring India&apos;s emergence as a global semiconductor hub through
             strategic initiatives, investments, and technological innovation
           </p>
         </motion.div>
