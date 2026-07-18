@@ -45,8 +45,8 @@ export const MicrochipHistoryNavigationCard = () => {
             The Silicon Revolution
           </h3>
           <p className="text-purple-200 leading-relaxed">
-            Journey through 75+ years of microchip evolution. From the first transistor to AI chips, 
-            explore how semiconductors shaped our world and India's growing role in the global chip industry.
+            Journey through 75+ years of microchip evolution. From the first transistor to AI chips,
+            explore how semiconductors shaped our world and India&apos;s growing role in the global chip industry.
           </p>
         </div>
         

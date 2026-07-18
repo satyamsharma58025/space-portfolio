@@ -261,17 +261,17 @@ export const PROJECTS = [
   {
     title: "Modern School Website",
     description:
-      'A fully responsive and dynamic website built to serve a modern educational institution. Features include an event calendar, faculty directories, and live news updates, all managed through a user-friendly admin interface.',
-    image: "/projects/pc1.png",
+      'A production-grade website for RMS Balichela featuring notices, events, and a CMS-style admin experience that lets faculty publish updates without developer intervention.',
+    image: "/projects/rs.png",
     link: "https://rmsbalichela.org",
     category: "Web",
-    techStack: ["Next.js", "TypeScript", "TailwindCSS", "MongoDB"],
+    techStack: ["React", "Node.js", "Express", "MongoDB"],
     github: "https://github.com/satyamsharma58025/school-website",
   },
   {
     title: "Information- Visualizer",
     description:
-    'A powerful visualization tool that animates the inner workings of complex algorithms. Users can step through sorts like Merge Sort and Quicksort or pathfinders like A* and Dijkstras, gaining a deeper understanding of their logic and efficiency.',
+      'A powerful visualization tool that animates core algorithms and helps learners understand sorts, searches, and graph traversal step by step.',
     image: "/projects/pc2.png",
     link: "https://csvisualizer.netlify.app/",
     category: "AI",
@@ -281,12 +281,42 @@ export const PROJECTS = [
   {
     title: "Space Themed Website",
     description:
-      'Embark on an interstellar journey with my "Space Themed Website", a mesmerizing space-themed website that invites you to explore the cosmic wonders beyond our world. Immerse yourself in an awe-inspiring digital experience that blends cutting-edge design with the mysteries of the universe.',
+      'An immersive, futuristic portfolio experience that blends design storytelling with interactive motion to reflect a bold, space-inspired identity.',
     image: "/projects/pc3.png",
-    link: "https://example.com",
+    link: "https://github.com/satyamsharma58025/space-portfolio",
     category: "Web",
     techStack: ["React", "Three.js", "Framer Motion", "TailwindCSS"],
     github: "https://github.com/satyamsharma58025/space-portfolio",
+  },
+  {
+    title: "RAG-Powered Document Intelligence",
+    description:
+      'An AI system that ingests PDFs and URLs, embeds content with OpenAI and pgvector, and retrieves relevant information with reduced hallucination for multi-user use cases.',
+    image: "/projects/rg.png",
+    link: "https://github.com/satyamsharma58025",
+    category: "AI",
+    techStack: ["LangChain", "LlamaIndex", "pgvector", "OpenAI"],
+    github: "https://github.com/satyamsharma58025",
+  },
+  {
+    title: "Agentic AI Task Planner",
+    description:
+      'A multi-agent orchestration platform built with LangGraph and MCP that decomposes complex tasks, registers tools dynamically, and executes them with lower latency.',
+    image: "/projects/at.png",
+    link: "https://github.com/satyamsharma58025",
+    category: "AI",
+    techStack: ["LangGraph", "Node.js", "MongoDB", "MCP"],
+    github: "https://github.com/satyamsharma58025",
+  },
+  {
+    title: "Live Jharkhand News Portal",
+    description:
+      'A recently launched regional news platform built to deliver current updates, local stories, and community-focused content for Jharkhand audiences.',
+    image: "/projects/lj.png",
+    link: "https://www.livejharkhand.org",
+    category: "Web",
+    techStack: ["React", "Next.js", "TailwindCSS", "News Platform"],
+    github: "https://github.com/satyamsharma58025",
   },
 ];
 

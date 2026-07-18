@@ -23,6 +23,10 @@ const ogImage = {
 const inter = Inter({ subsets: ["latin"] });
 
 export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
+  viewportFit: "cover",
   themeColor: "#030014",
 };
 
@@ -34,7 +38,7 @@ export default function RootLayout({ children }: PropsWithChildren) {
 
       <body
         className={cn(
-          "bg-[#030014] overflow-y-scroll overflow-x-hidden",
+          "min-h-screen min-h-[100dvh] bg-[#030014] overflow-x-hidden overflow-y-auto text-white",
           inter.className
         )}
       >
