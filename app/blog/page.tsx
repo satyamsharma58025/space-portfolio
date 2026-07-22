@@ -14,14 +14,16 @@ function getBlogPosts(): BlogPostMetadata[] {
       const fullPath = path.join(postsDirectory, fileName);
       const fileContents = fs.readFileSync(fullPath, "utf8");
       const { data } = matter(fileContents);
+      const tags = Array.isArray(data.tags) ? data.tags : [];
+      const date = data.date ?? data.publishedAt ?? "";
       
       return {
         slug: fileName.replace(/\.mdx$/, ""),
-        title: data.title,
-        date: data.date,
-        author: data.author,
-        tags: data.tags,
-        summary: data.summary,
+        title: data.title ?? fileName.replace(/\.mdx$/, ""),
+        date,
+        author: data.author ?? "Satyam Sharma",
+        tags,
+        summary: data.summary ?? "",
       };
     })
     .sort((a, b) => (a.date < b.date ? 1 : -1));

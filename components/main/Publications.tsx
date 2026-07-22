@@ -128,10 +128,10 @@ export const Publications = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-            Publications & Talks
+            Research & Technical Work
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto">
-            Research papers, technical articles, conference talks, and workshops on sovereign technology and innovation.
+            A snapshot of the AI systems, engineering projects, and technical initiatives that reflect the work in my resume.
           </p>
         </motion.div>
 

@@ -15,15 +15,15 @@ interface DownloadLink {
 const downloads: DownloadLink[] = [
   {
     title: "Professional Resume",
-    description: "Technical skills, work experience, and achievements",
-    href: "/downloads/satyam-sharma-resume-2025.pdf",
+    description: "A current overview of my experience, skills, projects, and achievements",
+    href: "/downloads/satyam-sharma-resume.pdf",
     icon: FileText,
     category: "resume"
   },
   {
-    title: "Teaching Portfolio",
-    description: "Educational philosophy, methodologies, and student outcomes",
-    href: "/downloads/teaching-portfolio-2025.pdf",
+    title: "Technical Portfolio",
+    description: "Selected AI systems, engineering projects, and case studies from my work",
+    href: "https://github.com/satyamsharma58025",
     icon: Book,
     category: "portfolio"
   },
